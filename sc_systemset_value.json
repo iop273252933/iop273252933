@@ -1,0 +1,889 @@
+{
+    "Ver": "20230721_V1.0.0",
+    "名称": "系统设置",
+    "基本参数": [
+        {
+            "ID": 1,
+            "名称": "下载源地址",
+            "基本参数": [
+                {
+                    "attr": 1,
+                    "input": 1,
+                    "maxv": 1,
+                    "minv": 0,
+                    "name": "下载源",
+                    "option": 32,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "服务器IP1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 192
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "服务器IP2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 16
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "服务器IP3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "服务器IP4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "主机IP1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 172
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "主机IP2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 16
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "主机IP3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "主机IP4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 252
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "名称": "文件更新",
+            "基本参数": [
+                {
+                    "attr": 2,
+                    "input": 1,
+                    "maxv": 10,
+                    "minv": 1,
+                    "name": "应用场合",
+                    "option": 29,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP地址1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 172
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP地址2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 16
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP地址3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 2,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP地址4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 66
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP掩码1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 255
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP掩码2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 255
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP掩码3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP掩码4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP网关1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 172
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP网关2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 16
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP网关3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP网关4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "VLAN左",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "VLAN右",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 7,
+                    "input": 1,
+                    "maxv": 1,
+                    "minv": 1,
+                    "name": "全面配址",
+                    "option": 23,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "名称": "系统设置",
+            "基本参数": [
+                {
+                    "attr": 2,
+                    "input": 1,
+                    "maxv": 10,
+                    "minv": 1,
+                    "name": "应用场合",
+                    "option": 29,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP地址1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 172
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP地址2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 16
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP地址3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 2,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP地址4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 88
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP掩码1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 255
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP掩码2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 255
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP掩码3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP掩码4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP网关1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 172
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP网关2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 16
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP网关3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "IP网关4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "VLAN左",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 3,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "VLAN右",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 7,
+                    "input": 1,
+                    "maxv": 1,
+                    "minv": 1,
+                    "name": "全面配址",
+                    "option": 23,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "名称": "设备信息",
+            "基本参数": [
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "控制器",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 0
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "电磁阀",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "程序棒",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 2
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "角度",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 3
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "高度",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 4
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "声光",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 5
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "人员",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 6
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "红外",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 7
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "键盘",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 8
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "无线",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 9
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "HUB1",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 10
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "HUB2",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 11
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "HUB3",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 12
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "角高一体",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 13
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "多功能声光",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 14
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "本架模拟量",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 15
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "本架I/0",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 16
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "红外对码",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 17
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "蓝牙",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 18
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "NFC",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 19
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "数据转换器",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 20
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "信号转换器",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 21
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "光电终端",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 22
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 32,
+                    "minv": 0,
+                    "name": "电话",
+                    "option": 0,
+                    "show": 1,
+                    "unit": 0,
+                    "value": 23
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "名称": "设备右侧",
+            "基本参数": [
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 10,
+                    "minv": 1,
+                    "name": "识别码1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 11
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 12
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 13
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 14
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码5",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 15
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码6",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 16
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "名称": "设备左侧",
+            "基本参数": [
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 10,
+                    "minv": 1,
+                    "name": "识别码1",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 1
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码2",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 2
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码3",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 3
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码4",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 4
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码5",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 5
+                },
+                {
+                    "attr": 1,
+                    "input": 2,
+                    "maxv": 255,
+                    "minv": 0,
+                    "name": "识别码6",
+                    "option": 0,
+                    "show": 2,
+                    "unit": 0,
+                    "value": 6
+                }
+            ]
+        }
+    ]
+}
